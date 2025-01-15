@@ -25,3 +25,8 @@ And uncomment the next line(18) by removing `//` at the beginning.
 ```JavaScript
 //var textWidth = layer.bounds[2].as('px') - layer.bounds[0].as('px'); //Ширина блока примерно равна ширине текста
 ```
+# Known Issues
+## RU
+> Некоторые текстовые слои центруются некорректно, решается пересозданием текстового слоя.
+## EN
+> Some text layers are aligned incorrectly; this can be resolved by recreating the text layer.
