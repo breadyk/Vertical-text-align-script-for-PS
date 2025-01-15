@@ -1,6 +1,6 @@
 # Vertical Text Alignment Script for Photoshop
 <p align="center">
-  <img src="https://i.ibb.co/k01GL2P/2025-01-16-04-10-28-1.gif" alt="Example GIF"/>
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXB6NTc1M2QxcXd3a3RhcGhqNG1qN2JydjV0NG5vbjNzNm5wZHBrZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DUuLqHzK8EErlD7skI/giphy.gif" alt="Example GIF"/>
 </p>
 
 ## RU
