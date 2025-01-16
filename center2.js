@@ -10,7 +10,7 @@ function alignTextVerticallyCenterWithinLayer() {
         return;
     }
     var textHeight = layer.bounds[3].as('px') - layer.bounds[1].as('px');
-    var newX = layer.bounds[0];
+    var oldX = layer.bounds[0];
 
     layer.translate(0, ((layer.textItem.height.as('px') - textHeight) / 2) - (layer.bounds[1].as('px') - layer.textItem.position[1].as('px')));
 
@@ -24,6 +24,6 @@ function alignTextVerticallyCenterWithinLayer() {
     layer.textItem.kind = TextType.PARAGRAPHTEXT;
     layer.textItem.height = textHeight;
     layer.textItem.width = textWidth;
-    layer.translate(-(layer.bounds[0]-newX), 0);
+    layer.translate(-(layer.bounds[0]-oldX), 0);
 }
 alignTextVerticallyCenterWithinLayer();
